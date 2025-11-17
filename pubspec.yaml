@@ -32,6 +32,7 @@ dependencies:
   # Utils
   uuid: ^4.2.1
   intl: ^0.18.1
+  dartz: ^0.10.1
 
 dev_dependencies:
   flutter_test:
@@ -46,12 +47,12 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   
-  assets:
-    - assets/images/
-    - assets/lottie/
-    - assets/sounds/
+  # assets:
+  #   - assets/images/
+  #   - assets/lottie/
+  #   - assets/sounds/
   
-  fonts:
-    - family: GameIcons
-      fonts:
-        - asset: assets/fonts/game_icons.ttf
+  # fonts:
+  #   - family: GameIcons
+  #     fonts:
+  #       - asset: assets/fonts/game_icons.ttf
